@@ -1,0 +1,3 @@
+git config --local http.sslVerify false
+git remote add origin https://gitea.mgmt.nubes.ru/smishchuk/cmdb-api.git
+git push -u origin master
