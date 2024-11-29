@@ -10,6 +10,9 @@ const config = {
   user: process.env.CMDB_LOGIN,
   password: process.env.CMDB_PASSWD,
   database: process.env.CMDB_DBNAME
+  ssl: {
+    rejectUnauthorized: false 
+  }
 };
 
 // Observe application's life cycle to disconnect the datasource when
