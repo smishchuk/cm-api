@@ -9,7 +9,7 @@ const config = {
   port: process.env.CMDB_PORT,
   user: process.env.CMDB_LOGIN,
   password: process.env.CMDB_PASSWD,
-  database: process.env.CMDB_DBNAME
+  database: process.env.CMDB_DBNAME,
   ssl: {
     rejectUnauthorized: false 
   }
